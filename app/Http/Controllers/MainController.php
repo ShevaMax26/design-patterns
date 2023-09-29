@@ -12,7 +12,7 @@ class MainController extends Controller
      */
     public function __invoke(Request $request, string $url = 'property-container')
     {
-        $patternDescription = (new PatternFactory())->handle($url);
+        $patternDescription = PatternFactory::make()->handle($url);
 
         return view('main', compact('patternDescription'));
     }
