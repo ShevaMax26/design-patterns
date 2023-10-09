@@ -3,7 +3,6 @@
 namespace App\DesignPatterns\Creational\Prototype;
 
 use Carbon\Carbon;
-use function Symfony\Component\Translation\t;
 
 class Order
 {

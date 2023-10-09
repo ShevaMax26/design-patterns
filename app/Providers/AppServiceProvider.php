@@ -2,6 +2,8 @@
 
 namespace App\Providers;
 
+use App\DesignPatterns\Structural\Adapter\Contracts\MediaLibraryInterface;
+use App\DesignPatterns\Structural\Adapter\MediaLibraryAdapter;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -11,7 +13,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        //
+//        $this->app->bind(MediaLibraryInterface::class, MediaLibrarySelfWritten::class);
+        $this->app->bind(MediaLibraryInterface::class, MediaLibraryAdapter::class);
     }
 
     /**
