@@ -14,6 +14,7 @@ class PatternFactory
         'singleton' => \App\DesignPatterns\Creational\Singleton\AboutPattern::class,
         'strategy' => \App\DesignPatterns\Behavioral\Strategy\AboutPattern::class,
         'builder' => \App\DesignPatterns\Creational\Builder\AboutPattern::class,
+        'lazy-initialization' => \App\DesignPatterns\Creational\LazyInitialization\AboutPattern::class,
     ];
 
     /**
