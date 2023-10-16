@@ -20,6 +20,7 @@ class PatternFactory
         'facade' => \App\DesignPatterns\Structural\Facade\AboutPattern::class,
         'composite' => \App\DesignPatterns\Structural\Composite\AboutPattern::class,
         'decorator' => \App\DesignPatterns\Structural\Decorator\AboutPattern::class,
+        'dto' => \App\DesignPatterns\Other\DTO\AboutPattern::class,
     ];
 
     /**
