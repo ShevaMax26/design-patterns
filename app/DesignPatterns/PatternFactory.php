@@ -19,6 +19,7 @@ class PatternFactory
         'adapter' => \App\DesignPatterns\Structural\Adapter\AboutPattern::class,
         'facade' => \App\DesignPatterns\Structural\Facade\AboutPattern::class,
         'composite' => \App\DesignPatterns\Structural\Composite\AboutPattern::class,
+        'decorator' => \App\DesignPatterns\Structural\Decorator\AboutPattern::class,
     ];
 
     /**
