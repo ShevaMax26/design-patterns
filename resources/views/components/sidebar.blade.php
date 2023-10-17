@@ -103,6 +103,11 @@
                 <span class="font-semibold text-gray-900 dark:text-white">Strategy</span> Стратегія
             </a>
         </li>
+        <li>
+            <a href="{{ route('patterns', 'chain-responsibility') }}">
+                <span class="font-semibold text-gray-900 dark:text-white">Chain of Responsibility</span> Ланцюжок обов'язків
+            </a>
+        </li>
     </ol>
 
     <h2 class="mt-4 text-xl font-semibold text-gray-900 dark:text-white">Other</h2>

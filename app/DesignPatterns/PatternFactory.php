@@ -22,6 +22,7 @@ class PatternFactory
         'decorator' => \App\DesignPatterns\Structural\Decorator\AboutPattern::class,
         'dto' => \App\DesignPatterns\Other\DTO\AboutPattern::class,
         'proxy' =>\App\DesignPatterns\Structural\Proxy\AboutPattern::class,
+        'chain-responsibility' => \App\DesignPatterns\Behavioral\ChainResponsibility\AboutPattern::class,
     ];
 
     /**
