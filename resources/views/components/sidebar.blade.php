@@ -113,6 +113,11 @@
                 <span class="font-semibold text-gray-900 dark:text-white">Specification</span> Специфікація
             </a>
         </li>
+        <li>
+            <a href="{{ route('patterns', 'template-method') }}">
+                <span class="font-semibold text-gray-900 dark:text-white">Template method</span> Шаблонний метод
+            </a>
+        </li>
     </ol>
 
     <h2 class="mt-4 text-xl font-semibold text-gray-900 dark:text-white">Other</h2>

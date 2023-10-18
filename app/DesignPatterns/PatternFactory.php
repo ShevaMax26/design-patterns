@@ -24,6 +24,7 @@ class PatternFactory
         'proxy' =>\App\DesignPatterns\Structural\Proxy\AboutPattern::class,
         'chain-responsibility' => \App\DesignPatterns\Behavioral\ChainResponsibility\AboutPattern::class,
         'specification' => \App\DesignPatterns\Behavioral\Specification\AboutPattern::class,
+        'template-method' => \App\DesignPatterns\Behavioral\TemplateMethod\AboutPattern::class,
     ];
 
     /**
